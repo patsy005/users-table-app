@@ -1,0 +1,42 @@
+@import './colors.scss';
+@import './components/table/table.scss';
+@import './components/spinner/spinner.scss';
+@import './components/errorMsg/errorMsg.scss';
+@import './components/footer/footer.scss';
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#root {
+	height: 100vh;
+}
+
+html {
+	font-size: 62.5%;
+	background-color: #f0f6ff !important;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	color: #091f42;
+	background-color: #f0f6ff;
+	margin: unset !important;
+	display: block !important;
+	place-items: unset !important;
+	min-width: unset !important;
+	min-height: unset !important;
+	height: 100vh !important;
+}
+
+.header {
+	.header-title {
+		color: $dark-blue;
+		font-size: 3rem;
+	}
+}
