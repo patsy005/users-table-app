@@ -60,7 +60,7 @@ export default function UsersTable() {
 	)
 
 	return (
-		<div className="row">
+		<div className="row px-5">
 			<Table
 				data={data}
 				filters={filters}
